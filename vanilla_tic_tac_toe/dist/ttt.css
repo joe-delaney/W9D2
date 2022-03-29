@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-parent {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  height: 400px;
+  justify-content: center;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.x {
+  font-size: 50px;
+  background-color: white;
+  color: blue;
+}
+
+.o {
+  font-size: 50px;
+  background-color: white;
+  color: red;
+}
+
+.grid-position {
+  width: 125px;
+  border:8px solid black;
+  list-style: none;
+  height: 125px;
+
+}
+
+.grid-position:hover {
+  background-color: yellow;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:gray;
+}
+
+.win-message {
+  padding: 20px;
+  font-size: 32px;
+}
+
